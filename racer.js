@@ -1,8 +1,8 @@
 $(function() {
 //put your js in here
   $(window).keydown(function(event) {
-    //if q is pressed do something
-    //if p is pressed do something else
+      //if q is pressed do something
+      //if p is pressed do something else
     console.log(event.keyCode)
   })
 })
@@ -15,9 +15,8 @@ function movePlayer(playerNumber) {
   //if I don't have a neighbour, create an alert saying game over # alert() if
 }
 
-
+// I modifiyed this code
 //bonus points
 //reset a game
 //count the number of wins for each player
 //display the high scores on the page # - text()
-
